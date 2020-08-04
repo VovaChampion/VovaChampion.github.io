@@ -1,0 +1,12 @@
+.main-container {
+  padding: 10px;
+  background-color: #F5F5F5;
+  width: 70%;
+}
+
+
+@media screen and (max-width: 750px) {
+  .main-container {
+    width: 100%;
+  }
+}
