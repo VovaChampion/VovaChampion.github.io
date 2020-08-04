@@ -1,17 +1,13 @@
 .left-container {
   padding: 10px;
   background-color: cadetblue;
-  width: 30%;
+  width: 33%;
 }
 
 Table {
   /* background-color: cadetblue; */
   font-size: 14px;
 }
-
-/* .table th, .table td {
-  border-top: 3px solid red;;
-} */
 
 .table th, .table td{
   padding: 1px!important;
@@ -26,6 +22,11 @@ Table {
   font-weight: bold;
 }
 
+/* @media screen and (max-width: 500px) {
+  .left-container {
+    width: 100%;
+  }
+} */
 
 @media screen and (max-width: 750px) {
   .left-container {

@@ -4,12 +4,16 @@
   --main-bg-page: #fff;
 }
 
+#root {
+  height: 100%;
+}
+
 .app {
   background: var(--main-bg-page);
   height: 100%;
   width: 100%;
   position: absolute;
-  /* min-height: 800px; */
+  min-height: 1100px;
 }
 
 .container-xl{
@@ -17,8 +21,6 @@
   /* height: 100%; */
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
-  /* align-items: stretch; */
   width: 100%;
   overflow: auto;
 }
