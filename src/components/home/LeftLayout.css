@@ -1,12 +1,15 @@
 .left-container {
   padding: 10px;
-  background-color: cadetblue;
-  width: 33%;
+  /* background-color: cadetblue; */
+  /* background: var(--main-bg-gray); */
+  border-radius: 5px;
+  width: 35%;
 }
 
 Table {
-  /* background-color: cadetblue; */
   font-size: 14px;
+  padding: 5px;
+  /* width: 50%; */
 }
 
 .table th, .table td{

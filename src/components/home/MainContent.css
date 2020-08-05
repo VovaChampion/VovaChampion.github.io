@@ -1,19 +1,20 @@
 .main-container {
   padding: 10px;
-  background-color: #F5F5F5;
-  width: 65%;
+  /* background-color: #F5F5F5; */
+  width: 100%;
 }
 
 .portfolio-list{
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
   margin: 0;
 }
 
 .portfolio-item {
   background-color: #f1f1f1;
   margin: 10px;
-  width: 45%;
+  width: 50%;
   border-radius: 5px;
 }
 
