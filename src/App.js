@@ -1,18 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
+import Footer from './components/share/Footer';
+import Header from './components/share/Header';
+import Main from './components/Main';
+
+
+class MyApp extends Component {
+  render() {
+    return (
+      <div className="app">
+        {/* <div className="app" style={{fontFamily:"'Helvetica Neue', sans-serif"}}> */}
+        <Header />
+        <div className="container-fluid">
+          <Main />
+        </div>
+        <Footer />
+      </div>
+    )
+  }
+
 }
 
-export default App;
+export default MyApp;

@@ -1,0 +1,38 @@
+.left-container {
+  padding: 10px;
+  /* background-color: cadetblue; */
+  /* background: var(--main-bg-gray); */
+  border-radius: 5px;
+  width: 35%;
+}
+
+Table {
+  font-size: 14px;
+  padding: 5px;
+  /* width: 50%; */
+}
+
+.table th, .table td{
+  padding: 1px!important;
+  vertical-align: middle!important;
+}
+
+.icon{
+  font-size:2vw;
+}
+
+.left-container p{
+  font-weight: bold;
+}
+
+/* @media screen and (max-width: 500px) {
+  .left-container {
+    width: 100%;
+  }
+} */
+
+@media screen and (max-width: 750px) {
+  .left-container {
+    width: 100%;
+  }
+}

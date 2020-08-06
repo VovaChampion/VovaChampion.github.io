@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+:root {
+  --main-bg-color: linear-gradient(56deg, rgba(2,0,36,1) 0%, rgba(205,205,207,1) 55%);
+  --main-bg-page: linear-gradient(0deg, rgba(217,224,211,1) 30%, rgba(231,231,247,1) 69%);
+  --main-bg-gray:radial-gradient(circle, rgba(116,119,113,1) 0%, rgba(179,217,186,1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  height: 100%;
+  font-family: 'Audiowide';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  background: var(--main-bg-color);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  min-height: 1100px;
+  overflow: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-fluid{
+  /* height: calc(100% - 150px); */
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  overflow: auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+@media screen and (max-width: 750px) {
+  .container-xl {
+    flex-direction: column;
   }
 }

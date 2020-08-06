@@ -1,0 +1,31 @@
+.social-links {
+  background: transparent;
+  text-align: center;
+}
+
+a.social {
+  margin: 0 1rem;
+  display: inline-block;
+  /* color: black; */
+  color: whitesmoke;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.github:hover {
+  color: #211F1F;
+}
+
+a.facebook:hover {
+  color: #486ec0;
+}
+
+a.linkedin:hover {
+  color: #0e76a8;
+}
+
+a.stackoverflow:hover {
+  color: #ef8236;
+}
