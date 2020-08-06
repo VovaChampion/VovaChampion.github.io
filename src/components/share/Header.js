@@ -4,6 +4,7 @@ import './Header.css';
 import MyLogo from '../../assets/vova-avatar.jpg';
 import Background from '../../assets/unsplash2.jpg';
 import Social from "../lib/Social";
+import Arrow from "../lib/Arrow";
 
 var sectionStyle = {
   width:'100%',
@@ -39,6 +40,7 @@ function Header() {
           </ul>
         </div>
         <Social />
+        <Arrow />
       </div>
     
     </div>
