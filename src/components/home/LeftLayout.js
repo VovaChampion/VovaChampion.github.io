@@ -16,7 +16,7 @@ export default class LeftLayout extends Component {
 
     return (
       <div className="left-container">
-        <p>My skills part</p>
+        <p>My skills</p>
         <Table borderless>
           <thead>
             <tr>

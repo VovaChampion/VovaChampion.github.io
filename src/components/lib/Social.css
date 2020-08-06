@@ -6,7 +6,8 @@
 a.social {
   margin: 0 1rem;
   display: inline-block;
-  color: black;
+  /* color: black; */
+  color: whitesmoke;
 }
 
 a.social:hover {
