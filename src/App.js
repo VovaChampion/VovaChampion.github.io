@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import Footer from './components/share/Footer';
 import Header from './components/share/Header';
@@ -10,7 +11,6 @@ class MyApp extends Component {
   render() {
     return (
       <div className="app">
-        {/* <div className="app" style={{fontFamily:"'Helvetica Neue', sans-serif"}}> */}
         <Header />
         <div className="container-fluid">
           <Main />

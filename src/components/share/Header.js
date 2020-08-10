@@ -32,13 +32,6 @@ function Header() {
         <div className="title">
           <p> FRONTEND / WEB / NATIVE / FULLSTACK DEVELOPER </p>
         </div>
-
-        <div className="contact">
-          <ul>
-            <li>Email: <a href="mailto:volodymyr.avramenko77@gmail.com">volodymyr.avramenko77@gmail.com</a></li>
-            <li>Phone: +46-070-2688977</li>
-          </ul>
-        </div>
         <Social />
         <Arrow />
       </div>
