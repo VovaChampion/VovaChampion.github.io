@@ -4,7 +4,7 @@ export const myProjects = [
     slug:'Pastebill',
     name: 'Pastebill',
     tools: [ 'HTML, CSS', 'React', 'Node.js', 'GitHub', 'Contentful', 'heroku', 'API'],
-    description: 'PasteBill is a Business-to-Business (B2B) web-platform.',
+    description: 'PasteBill is a Business-to-Business (B2B) web-platform. Built the site from scratch to release',
     image: 'pastebill',
     git: 'https://pastebill.com/'
   },
