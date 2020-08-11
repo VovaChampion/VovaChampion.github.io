@@ -27,7 +27,7 @@
 
 .desc {
   width: 50%;
-  padding: 30px 10px 30px 5px;
+  padding: 30px 30px 30px 5px;
 }
 
 .item-name{
@@ -64,7 +64,7 @@
   .portfolio-item {
     width: 100%;
     flex-direction: column;
-    margin: 5px;
+    margin: 10px;
   }
 
   .image-block{
