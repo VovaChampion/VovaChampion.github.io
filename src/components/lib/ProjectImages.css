@@ -3,7 +3,8 @@
   max-height: 650px;
   padding: 20px;
   margin: 10px;
-  overflow: auto;
+  /* overflow: auto; */
+  overflow: hidden;
   white-space: nowrap;
 }
 

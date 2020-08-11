@@ -7,7 +7,8 @@ import Arrow from "../lib/Arrow";
 
 var sectionStyle = {
   width:'100%',
-  height:'100%',
+  minHeight:900,
+  // height:'100%',
 
   /* Create the parallax scrolling effect */
   backgroundAttachment: 'fixed',
