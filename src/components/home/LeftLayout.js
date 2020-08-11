@@ -12,10 +12,9 @@ import './LeftLayout.css';
 
 export default class LeftLayout extends Component {
   render() {
-    // const { rating } = this.state;
 
     return (
-      <div className="left-container">
+      <div className="left-container" id="skills">
         <p>My skills</p>
         <Table borderless>
           <thead>
