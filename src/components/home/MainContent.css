@@ -11,8 +11,28 @@
   margin: 0;
 }
 
+.back-to-top-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85vh;
+  padding: 10px;
+  text-align:right; 
+  margin:0px 10px 0px auto;
+  width:50px;
+}
+
+.back-to-top-wrapper .icon {
+  color: orange;
+  font-size: 2em; 
+}
+
 @media screen and (max-width: 750px) {
   .main-container {
     width: 100%;
+  }
+  .back-to-top-wrapper {
+    margin:0px 0px 0px auto;
+    padding: 0;
+    width: 0;
   }
 }

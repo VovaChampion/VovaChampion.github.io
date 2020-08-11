@@ -1,7 +1,5 @@
 .left-container {
   padding: 10px;
-  /* background-color: cadetblue; */
-  /* background: var(--main-bg-gray); */
   border-radius: 5px;
   width: 35%;
 }
@@ -9,7 +7,6 @@
 Table {
   font-size: 14px;
   padding: 5px;
-  /* width: 50%; */
 }
 
 .table th, .table td{
@@ -17,8 +14,8 @@ Table {
   vertical-align: middle!important;
 }
 
-.icon{
-  font-size:2vw;
+.left-container .icon{
+  font-size: 1.5em; 
 }
 
 .left-container p{
