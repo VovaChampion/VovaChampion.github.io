@@ -18,6 +18,7 @@
   position: absolute;
   min-height: 1100px;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 
 .container-fluid{
@@ -28,8 +29,6 @@
   flex-direction: row;
   overflow: auto;
 }
-
-
 
 @media screen and (max-width: 750px) {
   .container-xl {
