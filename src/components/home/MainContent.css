@@ -19,6 +19,7 @@
   text-align:right; 
   margin:0px 10px 0px auto;
   width:50px;
+  z-index: 1;
 }
 
 .back-to-top-wrapper .icon {
