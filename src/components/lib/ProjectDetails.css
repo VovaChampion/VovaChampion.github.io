@@ -88,7 +88,6 @@
 
 @media screen and (max-width: 500px) {
   .portfolio-item {
-    /* margin: 5px; */
     width: 100%;
   }
 }

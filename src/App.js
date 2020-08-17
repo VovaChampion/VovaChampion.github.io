@@ -7,6 +7,7 @@ import Header from './components/share/Header';
 import Main from './components/Main';
 
 import ReactGA from 'react-ga';
+// Google analytics code
 ReactGA.initialize('UA-175138000-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -23,7 +24,6 @@ class MyApp extends Component {
       </div>
     )
   }
-
 }
 
 export default MyApp;

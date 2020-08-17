@@ -14,6 +14,7 @@ div.item-images img {
   object-fit: contain;
 }
 
+/* overwrite bootstrap style */
 .item-images ul{
   padding-inline-start:0 !important;
 }

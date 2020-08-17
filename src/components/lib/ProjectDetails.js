@@ -29,9 +29,11 @@ export default class ProjectDetails extends Component {
 
           <div className="item-tools">
             <p>Tools:</p>
+            {/* Loop all tools from the object's array  */}
             {project.tools.map((tool, i) => <li key={i}>{tool}</li>)}
           </div>
 
+          {/* Link opens in new tab -> target="_blank"*/}
           <div className="item-link">
             <p>Git/web-page: <a href={project.git} target="_blank" rel="noopener noreferrer">Link</a></p>
           </div>

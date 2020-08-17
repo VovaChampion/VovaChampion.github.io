@@ -3,10 +3,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import './ProjectImages.css';
 
+// function that imports all images from the certain folder
 function importAll(r) {
   return r.keys().map(r);
 }
 
+// const for each project folder with images
 const busTicket = importAll(require.context('../../assets/images/BusTicket', false, /\.(png|jpe?g|svg)$/));
 const onlineShop = importAll(require.context('../../assets/images/OnlineShop', false, /\.(png|jpe?g|svg)$/));
 const bookSystem = importAll(require.context('../../assets/images/BookSystem', false, /\.(png|jpe?g|svg)$/));
