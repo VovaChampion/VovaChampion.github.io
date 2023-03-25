@@ -1,6 +1,6 @@
 import React, {Component, Suspense} from 'react';
 import './MainContent.css';
-import { myProjects } from '../lib/Projects';
+import { myProjects } from '../lib/Data';
 import ProjectDetails from '../lib/ProjectDetails';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
